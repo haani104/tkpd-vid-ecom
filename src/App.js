@@ -3,7 +3,7 @@ import YTPlayer from 'react-youtube'
 import axios from 'axios';
 import VideoImages from './components/VideoImages'
 import './App.css';
-const SERVER_URL = 'http://localhost:5000/api'
+const SERVER_URL = '/api'
 
 class App extends Component {
   constructor(props) {
